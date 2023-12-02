@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DPP.WebAPI", "DPP.WebAPI\DPP.WebAPI.csproj", "{45AC6102-1804-4C0E-9903-91E7AC2D143E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DPP.WebAPI", "DPP.WebAPI\DPP.WebAPI.csproj", "{45AC6102-1804-4C0E-9903-91E7AC2D143E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DPP.lib", "DPP.lib\DPP.lib.csproj", "{396C1227-9955-4C1A-AD8D-6EC882FC24B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{45AC6102-1804-4C0E-9903-91E7AC2D143E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45AC6102-1804-4C0E-9903-91E7AC2D143E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45AC6102-1804-4C0E-9903-91E7AC2D143E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{396C1227-9955-4C1A-AD8D-6EC882FC24B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{396C1227-9955-4C1A-AD8D-6EC882FC24B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{396C1227-9955-4C1A-AD8D-6EC882FC24B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{396C1227-9955-4C1A-AD8D-6EC882FC24B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
