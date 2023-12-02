@@ -1,6 +1,6 @@
 @DPP.WebAPI_HostAddress = http://localhost:5166
 
-GET {{DPP.WebAPI_HostAddress}}/weatherforecast/
+POST {{DPP.WebAPI_HostAddress}}/publish
 Accept: application/json
 
 ###
