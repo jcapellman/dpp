@@ -1,3 +1,4 @@
+using DPP.lib.Objects.JSON;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DPP.WebAPI.Controllers
@@ -14,8 +15,9 @@ namespace DPP.WebAPI.Controllers
         }
 
         [HttpPost]
-        public bool GenerateApp()
+        public bool GenerateApp(Pipeline pipeline)
         {
+
             return true;
         }
     }
