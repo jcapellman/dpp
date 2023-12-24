@@ -5,6 +5,7 @@
     {
         ALL = 0,
         DATA = 1,
-        TRANSFORMER = 2
+        TRANSFORMER = 2,
+        TEXT_DATA = 3
     }
 }
